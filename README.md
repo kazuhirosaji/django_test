@@ -5,3 +5,6 @@ Django test on Ubuntu.
 - sudo apt-get install python-django
 - sudo apt-get install python-mysqldb
 - django-admin startproject mysite
+
+* Start Django server
+python manage.py runserver
