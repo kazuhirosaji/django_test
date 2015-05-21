@@ -1,5 +1,7 @@
-<html>
-<body>
-<h1>Hello, {{myname}}!</h1>
-</body>
-</html>
+{% extends "base.html" %}
+{% block content1 %}
+<p>Hello! I'm Content1.</p>
+{% endblock %}
+{% block content2 %}
+<p>Hello! I'm Content2.</p>
+{% endblock%}
